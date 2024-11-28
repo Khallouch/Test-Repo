@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Jaro:opsz@6..72&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.image {
+    width: 400px;
+    height: 170px;
+    border: 3px solid rgba(197, 180, 81, 0.562);
+}
+
+.list {
+    margin-top: 5px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+    transition: 0.5s;
+
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(218, 198, 85, 0.479);
+    padding: 10px;
+    box-shadow: 1px 2px goldenrod;
+}
+a:hover {
+    color: goldenrod;
+}
